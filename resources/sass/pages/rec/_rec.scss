@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+.slides {
+    margin-top: 50px;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide-container {
+    display: block;
+}
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all 0.7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 200px;
+    height: 400px;
+    display: none;
+    position: absolute;
+
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity 0.2s;
+
+    color: $header-background;
+    font-size: 200pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.slide:hover+.nav label {
+    opacity: 0.5;
+}
+
+.nav label:hover {
+    opacity: 1;
+}
+
+.nav .next {
+    right: 0;
+}
+
+input:checked+.slide-container .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked+.slide-container .nav label {
+    display: block;
+}
+
+.main-content {
+    padding-top: 30px;
+    display: flex;
+}
+
+.left-box {
+    width: 70%;
+    display: block;
+}
+
+.left-upper-content {
+    float: left;
+}
+
+.left-upper-box {
+    text-align: center;
+}
+
+.left-box img {
+    width: 200px;
+    height: 180px;
+    padding: 10px;
+}
+
+.left-box img:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+    opacity: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.left-lower {
+    margin-top: 30px;
+}
+
+.left-lower h2 {
+    color: $nav-background;
+    padding: 10px;
+    border-bottom: 2px solid #777;
+}
+
+.left-lower-content {
+    display: block;
+}
+
+.left-lower-box {
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.left-lower-box img {
+    width: 120px;
+    height: 70px;
+}
+
+.left-lower-box img:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+    opacity: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.left-lower-box h5 {
+    color: $nav-background;
+    width: 80%;
+    float: right;
+}
+
+.title-desc {
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+// RightBox
+.right-box {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+}
+
+.right-box h3 {
+    color: $nav-background;
+    padding: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.right-upper-box {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.right-lower-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.right-lower-box ul {
+    padding: 10px;
+    text-align: left;
+}
+
+.right-lower-box li {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For Mobile */
+    .main-content {
+        display: block;
+    }
+
+    .left-box {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .left-upper-content {
+        width: 100%;
+        text-align: center;
+        float: none;
+        padding: 20px;
+    }
+
+    .right-box {
+        width: 100%;
+    }
+}

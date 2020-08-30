@@ -1,0 +1,94 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    font-family: "fs-elliot";
+    background: $nav-background;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 1em 1.95em;
+}
+
+nav li:hover {
+    background: cornflowerblue;
+}
+
+.menu-main li a {
+    text-transform: uppercase;
+}
+
+.menu-sub {
+    position: absolute;
+    left: 0;
+    background: cornflowerblue;
+    width: 100%;
+    display: none;
+}
+
+nav li:hover .menu-sub {
+    display: block;
+}
+
+.menu-sub li {
+    float: left;
+}
+
+.menu-sub li a {
+    text-transform: initial;
+    color: #fff;
+}
+
+.menu-sub a:hover {
+    color: $nav-background;
+    font-weight: bold;
+}
+
+#join-rec {
+    color: #ffda54;
+}
+
+.icon {
+    display: none;
+}
+
+@media only screen and (max-width: 999px) {
+
+    /* For Tablet */
+    nav a {
+        padding: 1em 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For Mobile */
+    nav li {
+        display: block;
+        border-bottom: 1px solid gray;
+        margin: 5px;
+    }
+
+    .menu-sub li {
+        float: none;
+        border-bottom: 1px solid #fff;
+    }
+}
