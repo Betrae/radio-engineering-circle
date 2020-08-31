@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);* {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -51,23 +51,12 @@ header {
   border-radius: 75%;
 }
 
-.logo-box img:hover {
-  transform: scaleX(1.1) scaleY(1.1);
-  opacity: 1;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
 .logo-box h2 {
   font-family: "dax";
   position: absolute;
   color: #0a2c8b;
   top: 50px;
   left: 120px;
-}
-
-.logo-box h2:hover {
-  transform: scaleX(1) scaleY(1.5);
-  opacity: 1;
 }
 
 .member-logo-box {
@@ -81,8 +70,8 @@ header {
 }
 
 .member-logo-box img {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   border-radius: 75%;
   margin: 10px;
 }
@@ -114,6 +103,19 @@ header {
   .member-logo-box {
     display: inline-block;
     width: 100%;
+  }
+
+  .logo-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 75%;
+  }
+
+  .member-logo-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    margin: 10px;
   }
 }
 
@@ -252,7 +254,7 @@ nav li:hover .menu-sub {
   height: 420px;
   display: block;
   position: absolute;
-  transform: scale(0);
+  transform: scale(1);
   transition: all 0.7s ease-in-out;
 }
 
@@ -327,6 +329,10 @@ input:checked + .slide-container .nav label {
   transform: scaleX(1.1) scaleY(1.1);
   opacity: 1;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.left-box a {
+  font-weight: bold;
 }
 
 .left-lower {
@@ -425,6 +431,354 @@ input:checked + .slide-container .nav label {
   }
 
   .right-box {
+    width: 100%;
+  }
+}
+
+.rec-header {
+  width: 100%;
+  padding: 30px;
+  border: 2px solid #777;
+}
+
+.rec-header h3 {
+  text-transform: uppercase;
+  color: #0a2c8b;
+}
+
+.main-content {
+  display: flex;
+}
+
+.left-content {
+  width: 70%;
+}
+
+.video-player {
+  text-align: center;
+  padding: 30px;
+}
+
+.video-player video {
+  width: 100%;
+  height: 400px;
+}
+
+.what-box {
+  border: 1px solid #0a2c8b;
+  margin: 10px;
+}
+
+.what-box h4 {
+  background-color: #0a2c8b;
+  color: #fff;
+  padding: 5px;
+}
+
+.what-box p {
+  padding: 15px;
+}
+
+.right-content {
+  width: 30%;
+  padding: 10px;
+}
+
+.testimonies {
+  border: 1px solid #0a2c8b;
+}
+
+.testimonies h4 {
+  background-color: #0a2c8b;
+  color: #fff;
+  padding: 5px;
+}
+
+.testimony-box {
+  display: flex;
+  padding: 5px;
+}
+
+.testimony-box img {
+  height: 60px;
+  width: 60px;
+  border-radius: 75%;
+  padding: 5px;
+}
+
+.testimony-box p {
+  padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For Mobile */
+
+  .main-content {
+    display: block;
+  }
+
+  .left-content {
+    width: 100%;
+  }
+
+  .right-content {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.brief-history {
+  background-color: #0a2c8b;
+  color: #fff;
+  margin: 20px;
+  padding: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.history-timeline {
+  border: 1px solid #0a2c8b;
+  color: #0a2c8b;
+  margin: 20px;
+  padding: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.timeline {
+  margin: 10px;
+}
+
+.timeline img {
+  width: 100%;
+}
+
+.vmgo-box {
+  padding: 15px;
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+}
+
+.vmgo-box p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.vmgo-right {
+  padding: 20px;
+}
+
+.vmgo-right img {
+  width: 100%;
+}
+
+.charter-box {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.events-upper-content {
+  display: flex;
+  height: 350px;
+  margin: 20px;
+  background: #0a2c8b;
+  color: #fff;
+  border: 2px solid #0a2c8b;
+}
+
+.events-upper-content img {
+  width: 60%;
+}
+
+.events-upper-content h4 {
+  padding: 20px;
+}
+
+.events-box {
+  height: 200px;
+  display: flex;
+  margin: 10px;
+  border: 1px solid #0a2c8b;
+}
+
+.events-box img {
+  width: 250px;
+  height: 100%;
+}
+
+.events-box p {
+  padding: 10px;
+  text-align: left;
+}
+
+.todays-event {
+  border: 1px solid #0a2c8b;
+}
+
+.todays-event h4 {
+  padding: 5px;
+  text-transform: uppercase;
+  background: #0a2c8b;
+  color: #fff;
+}
+
+.todays-event-box {
+  padding: 10px;
+}
+
+.officer-box {
+  display: flex;
+  border: 1px solid #0a2c8b;
+  margin: 10px;
+  width: 80%;
+}
+
+.officer-profile {
+  width: 50%;
+}
+
+.officer-box img {
+  width: 250px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For Mobile */
+
+  .officer-box {
+    display: block;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .officer-profile {
+    width: 100%;
+  }
+}
+
+.membership-upper-content {
+  display: flex;
+  height: 350px;
+  margin: 20px;
+  background: #0a2c8b;
+  color: #fff;
+  border: 2px solid #0a2c8b;
+}
+
+.mySlides img {
+  width: 100%;
+  height: 350px;
+  padding: 10px;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+.membership-upper-content h4 {
+  padding: 20px;
+  width: 80%;
+}
+
+.membership-lower-content {
+  display: flex;
+  color: #0a2c8b;
+}
+
+.membership-box {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #0a2c8b;
+  margin: 5px;
+}
+
+.membership-box ul {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For Mobile */
+
+  .membership-upper-content {
+    display: block;
+    height: 450px;
+  }
+
+  .mySlides img {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+  }
+
+  .membership-lower-content {
+    display: block;
+  }
+
+  .membership-box {
     width: 100%;
   }
 }

@@ -1,0 +1,26 @@
+.officer-box{
+  display: flex;
+  border: 1px solid $nav-background;
+  margin: 10px;
+  width: 80%;
+}
+.officer-profile{
+  width: 50%;
+}
+.officer-box img{
+  width: 250px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For Mobile */
+  .officer-box{
+    display: block;
+    margin: 5px;
+    text-align: center;
+  }
+  .officer-profile{
+    width: 100%;
+  }
+}

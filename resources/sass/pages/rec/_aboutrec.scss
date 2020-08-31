@@ -1,0 +1,92 @@
+.rec-header {
+    width: 100%;
+    padding: 30px;
+    border: 2px solid #777;
+}
+
+.rec-header h3 {
+    text-transform: uppercase;
+    color: $nav-background;
+}
+
+.main-content {
+    display: flex;
+}
+
+.left-content {
+    width: 70%;
+}
+
+.video-player {
+    text-align: center;
+    padding: 30px;
+}
+
+.video-player video {
+    width: 100%;
+    height: 400px;
+}
+
+.what-box {
+    border: 1px solid $nav-background;
+    margin: 10px;
+}
+
+.what-box h4 {
+    background-color: $nav-background;
+    color: #fff;
+    padding: 5px;
+}
+
+.what-box p {
+    padding: 15px;
+}
+
+.right-content {
+    width: 30%;
+    padding: 10px;
+}
+
+.testimonies {
+    border: 1px solid $nav-background;
+}
+
+.testimonies h4 {
+    background-color: $nav-background;
+    color: #fff;
+    padding: 5px;
+}
+
+.testimony-box {
+    display: flex;
+    padding: 5px;
+}
+
+.testimony-box img {
+    height: 60px;
+    width: 60px;
+    border-radius: 75%;
+    padding: 5px;
+}
+
+.testimony-box p {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For Mobile */
+    .main-content {
+        display: block;
+    }
+
+    .left-content {
+        width: 100%;
+    }
+
+    .right-content {
+        width: 100%;
+        padding: 10px;
+    }
+
+}

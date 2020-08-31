@@ -2,16 +2,16 @@
   <div class="container">
     <ul class="menu-main">
       <li>
-        <a href="">rec</a>
+        <a href="{{ route('rec.index') }}">rec</a>
         <div class="menu-sub">
           <ul>
-            <li><a href="">About REC</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">VMGO</a></li>
-            <li><a href="">Charter</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">Officers</a></li>
-            <li><a href="">Membership</a></li>
+            <li><a href="{{ route('rec.about') }}">About REC</a></li>
+            <li><a href="{{ route('rec.history')}}">History</a></li>
+            <li><a href="{{ route('rec.vmgo') }}">VMGO</a></li>
+            <li><a href="{{ route('rec.charter')}}">Charter</a></li>
+            <li><a href="{{ route('rec.events') }}">Events</a></li>
+            <li><a href="{{ route('rec.officers') }}">Officers</a></li>
+            <li><a href="{{ route('rec.membership') }}">Membership</a></li>
           </ul>
         </div>
       </li>
