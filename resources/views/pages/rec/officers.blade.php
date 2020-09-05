@@ -6,22 +6,22 @@
 
 <div class="officer-box">
   <div class="officer-profile">
-    <img src="/assets/images/sample.jpg" alt="">
+    <img src="/assets/images/logo.jpg" alt="">
   </div>
   <div class="officer-details">
     <h5><span><a href="">Lorenz Black</a></span><br>
-    <span>Developer</span>
-  </h5>
+      <span>Developer</span>
+    </h5>
   </div>
 </div>
 <div class="officer-box">
   <div class="officer-profile">
-    <img src="/assets/images/sample2.jpg" alt="">
+    <img src="/assets/images/logo.jpg" alt="">
   </div>
   <div class="officer-details">
     <h5><span><a href="">Lorenz Black</a></span><br>
-    <span>Developer</span>
-  </h5>
+      <span>Developer</span>
+    </h5>
   </div>
 </div>
 
@@ -31,8 +31,8 @@
   </div>
   <div class="officer-details">
     <h5><span><a href="">Lorenz Black</a></span><br>
-    <span>Developer</span>
-  </h5>
+      <span>Developer</span>
+    </h5>
   </div>
 </div>
 @endsection

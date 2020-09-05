@@ -16,21 +16,21 @@
         </div>
       </li>
       <li>
-        <a href="">learn</a>
+        <a href="{{ route('learn.index') }}">learn</a>
         <div class="menu-sub">
           <ul>
-            <li><a href="">Become an Amateur Radio Operator</a></li>
-            <li><a href="">Examination Information</a></li>
-            <li><a href="">Learn How to Operate</a></li>
-            <li><a href="">Elmer's Section</a></li>
+            <li><a href="{{ route('learn.index') }}">Become an Amateur Radio Operator</a></li>
+            <li><a href="{{ route('learn.examination') }}">Examination Information</a></li>
+            <li><a href="{{ route('learn.operate') }}">Learn How to Operate</a></li>
+            <li><a href="{{ route('learn.elmersection') }}">Elmer's Section</a></li>
 
           </ul>
         </div>
       </li>
-      <li><a href="">sections</a></li>
-      <li><a href="">news</a></li>
+      <li><a href="{{ route('section.index') }}">sections</a></li>
+      <li><a href="{{ route('news.index')}}">news</a></li>
       <li>
-        <a href="">info</a>
+        <a href="{{ route('info.index') }}">info</a>
         <div class="menu-sub">
           <ul>
             <li><a href="">Plans</a></li>
@@ -42,9 +42,9 @@
           </ul>
         </div>
       </li>
-      <li><a href="">activities</a></li>
-      <li><a href="">contact</a></li>
-      <li><a id="join-rec" href="">join rec</a></li>
+      <li><a href="{{ route('activities.index') }}">activities</a></li>
+      <li><a href="{{ route('contacts.index') }}">contact</a></li>
+      <li><a id="join-rec" href="{{ route('join.index') }}">join rec</a></li>
     </ul>
   </div>
 </nav>

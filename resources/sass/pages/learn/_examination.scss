@@ -1,0 +1,33 @@
+.examination-box {
+    border: 1px solid $nav-background;
+    margin: 10px 0 10px 0;
+}
+
+.examination-box h4 {
+    padding: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    background: $nav-background;
+}
+
+.examination-box ul {
+    padding: 5px 30px 5px 30px;
+}
+
+.btn-application-form {
+    background: $nav-background;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-application-form:hover {
+    transform: scaleX(1) scaleY(1.1);
+    opacity: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-application-form a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}

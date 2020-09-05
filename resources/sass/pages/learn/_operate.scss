@@ -1,0 +1,25 @@
+.operate-box {
+    display: flex;
+    border: 1px solid $nav-background;
+    margin: 10px;
+}
+
+.operate-img {
+    width: 30%;
+}
+
+.operate-text {
+    width: 70%;
+    padding: 20px;
+}
+
+.operate-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.operate-box-2 {
+    display: flex;
+    border: 1px solid $nav-background;
+    margin: 10px;
+}

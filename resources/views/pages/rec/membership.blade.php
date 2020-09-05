@@ -5,7 +5,7 @@
 </div>
 <div class="membership-upper-content">
   <div class="title-container">
-    
+
   </div>
   <h4>
     <span><b>TITLE</b></span><br>
@@ -15,11 +15,6 @@
 
     <div class="mySlides fade">
       <img src="/assets/images/th.jpg">
-
-    </div>
-
-    <div class="mySlides fade">
-      <img src="/assets/images/sample.jpg" >
 
     </div>
 
@@ -64,7 +59,6 @@
   function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
       console.log("TEST");

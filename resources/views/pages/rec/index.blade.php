@@ -18,7 +18,7 @@
       <img src="http://farm9.staticflickr.com/8504/8365873811_d32571df3d_z.jpg" />
     </div>
     <div class="nav">
-   
+
       <label for="img-3" class="next">&#x203a;</label>
     </div>
   </li>
@@ -29,7 +29,7 @@
       <img src="http://farm9.staticflickr.com/8068/8250438572_d1a5917072_z.jpg" />
     </div>
     <div class="nav">
-     
+
       <label for="img-4" class="next">&#x203a;</label>
     </div>
   </li>
@@ -40,7 +40,7 @@
       <img src="/assets/images/logo.jpg" />
     </div>
     <div class="nav">
-    
+
       <label for="img-5" class="next">&#x203a;</label>
     </div>
   </li>

@@ -135,6 +135,7 @@ nav {
   font-family: "fs-elliot";
   background: #0a2c8b;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #fff;
 }
 
 nav ul {
@@ -581,7 +582,7 @@ input:checked + .slide-container .nav label {
 .events-upper-content {
   display: flex;
   height: 350px;
-  margin: 20px;
+  margin: 10px;
   background: #0a2c8b;
   color: #fff;
   border: 2px solid #0a2c8b;
@@ -596,7 +597,6 @@ input:checked + .slide-container .nav label {
 }
 
 .events-box {
-  height: 200px;
   display: flex;
   margin: 10px;
   border: 1px solid #0a2c8b;
@@ -627,6 +627,25 @@ input:checked + .slide-container .nav label {
   padding: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For Mobile */
+
+  .events-lower-box {
+    width: 100%;
+    display: block;
+  }
+
+  .events-upper-content {
+    display: block;
+    height: 500px;
+  }
+
+  .events-upper-content img {
+    width: 100%;
+    height: 350px;
+  }
+}
+
 .officer-box {
   display: flex;
   border: 1px solid #0a2c8b;
@@ -650,6 +669,7 @@ input:checked + .slide-container .nav label {
     display: block;
     margin: 5px;
     text-align: center;
+    width: 100%;
   }
 
   .officer-profile {
@@ -678,28 +698,6 @@ input:checked + .slide-container .nav label {
   width: 100%;
   position: relative;
   margin: auto;
-}
-
-/* Caption text */
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
 }
 
 /* Fading animation */
@@ -780,6 +778,173 @@ input:checked + .slide-container .nav label {
 
   .membership-box {
     width: 100%;
+  }
+}
+
+.mySlide {
+  display: none;
+}
+
+.mySlide img {
+  width: 100%;
+  height: 500px;
+}
+
+/* Slideshow container */
+
+.slideshow-learn {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.examination-box {
+  border: 1px solid #0a2c8b;
+  margin: 10px 0 10px 0;
+}
+
+.examination-box h4 {
+  padding: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #0a2c8b;
+}
+
+.examination-box ul {
+  padding: 5px 30px 5px 30px;
+}
+
+.btn-application-form {
+  background: #0a2c8b;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn-application-form:hover {
+  transform: scaleX(1) scaleY(1.1);
+  opacity: 1;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-application-form a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.operate-box {
+  display: flex;
+  border: 1px solid #0a2c8b;
+  margin: 10px;
+}
+
+.operate-img {
+  width: 30%;
+}
+
+.operate-text {
+  width: 70%;
+  padding: 20px;
+}
+
+.operate-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.operate-box-2 {
+  display: flex;
+  border: 1px solid #0a2c8b;
+  margin: 10px;
+}
+
+.elmer-section {
+  border: 1px solid #0a2c8b;
+  margin: 10px;
+  padding: 15px;
+}
+
+.section-content {
+  margin-top: 30px;
+}
+
+.section-box {
+  display: flex;
+  padding: 10px 30px 10px 30px;
+}
+
+.section-box img {
+  border-radius: 75%;
+  width: 110px;
+  height: 110px;
+}
+
+.section-box h3 {
+  padding: 20px;
+}
+
+.section-box h3 a {
+  color: black;
+  text-transform: uppercase;
+}
+
+.news-upper-content {
+  display: flex;
+  height: 350px;
+  background: #0a2c8b;
+  color: #fff;
+}
+
+.news-upper-content img {
+  width: 60%;
+}
+
+.news-upper-content h4 {
+  padding: 20px;
+}
+
+.news-lower-content {
+  margin: 0 15px;
+}
+
+.news-lower-box {
+  width: 33%;
+  display: inline-block;
+  border: 1px solid #0a2c8b;
+  margin: 10px 0;
+}
+
+.news-lower-box img {
+  width: 100%;
+  height: 200px;
+}
+
+.news-content {
+  padding: 10px;
+  color: #0a2c8b;
+}
+
+.news-content a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For Mobile */
+
+  .news-lower-box {
+    width: 100%;
+    display: block;
+  }
+
+  .news-upper-content {
+    display: block;
+    height: 500px;
+  }
+
+  .news-upper-content img {
+    width: 100%;
+    height: 350px;
   }
 }
 
