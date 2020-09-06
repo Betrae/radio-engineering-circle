@@ -38,4 +38,6 @@ Route::view('/contacts','pages/contacts/index')->name('contacts.index');
 
 Route::view('/join-rec','pages/join/index')->name('join.index');
 
+Route:: post('/create/user', 'UsersController@create_user');
+
 
