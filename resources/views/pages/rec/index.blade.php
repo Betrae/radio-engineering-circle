@@ -1,5 +1,7 @@
 @extends('master')
 @section('content')
+<div>
+
 <ul class="slides">
   <input type="radio" name="radio-btn" id="img-1" checked />
   <li class="slide-container">
@@ -65,7 +67,7 @@
     </div>
   </li>
 </ul>
-
+</div>
 <div class="main-content">
   <div class="left-box">
     <div class="left-upper">
@@ -74,7 +76,7 @@
           <div class="">
             <img src="/assets/images/logo.jpg" alt="">
           </div>
-          <a href="">REC membership/Join REC/REC Section</a>
+          <a target="_blank"href="https://www.youtube.com/watch?v=pdFhBwnWxOw">REC membership/Join REC/REC Section</a>
         </div>
       </div>
 
@@ -82,7 +84,7 @@
         <div class="">
           <img src="/assets/images/logo.jpg" alt="">
         </div>
-        <a href="">Upcoming Events</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=2MgWbAYu8_U">Upcoming Events</a>
       </div>
 
     </div>
@@ -96,7 +98,7 @@
             <img src="/assets/images/logo.jpg" alt="">
           </div>
           <div class="title-desc">
-            <h5><span><a href="">TITLE</a></span>
+            <h5><span><a target="_blank" href="https://www.youtube.com/watch?v=zMMZrxozjrY">IECEP Cavite AICTP Free Webinar and Oath Taking of Newly Elected Officers</a></span>
               <span>
                 <p>DESCRIPTION</p>
               </span>
@@ -111,7 +113,7 @@
             <img src="/assets/images/logo.jpg" alt="">
           </div>
           <div class="title-desc">
-            <h5><span><a href="">TITLE</a></span>
+            <h5><span><a target="_blank" href="https://www.youtube.com/watch?v=s2VtaERBQVU">IECEP MIndoro Chapter Online Technology Summit</a></span>
               <span>
                 <p>DESCRIPTION</p>
               </span>
@@ -152,28 +154,28 @@
     <div class="right-upper-box">
       <p>
         <span>Date:</span><br>
-        <span>Month/Day/Yeat</span><br>
+        <span>09/09/2020</span><br>
+        <span><a target="_blank" href="https://www.facebook.com/REC.org.ph/">Facebook Live</a></span>
+      </p>
+    </div>
+    <div class="right-upper-box">
+      <p>
+        <span>Date:</span><br>
+        <span>09/15/2020</span><br>
+        <span><a target="_blank" href="https://www.youtube.com/watch?v=FhGe5zPS8N8">Mindoro Summit</a></span>
+      </p>
+    </div>
+    <div class="right-upper-box">
+      <p>
+        <span>Date:</span><br>
+        <span>Month/Day/Year</span><br>
         <span><a href="">TITLE</a></span>
       </p>
     </div>
     <div class="right-upper-box">
       <p>
         <span>Date:</span><br>
-        <span>Month/Day/Yeat</span><br>
-        <span><a href="">TITLE</a></span>
-      </p>
-    </div>
-    <div class="right-upper-box">
-      <p>
-        <span>Date:</span><br>
-        <span>Month/Day/Yeat</span><br>
-        <span><a href="">TITLE</a></span>
-      </p>
-    </div>
-    <div class="right-upper-box">
-      <p>
-        <span>Date:</span><br>
-        <span>Month/Day/Yeat</span><br>
+        <span>Month/Day/Year</span><br>
         <span><a href="">TITLE</a></span>
       </p>
     </div>
@@ -181,8 +183,8 @@
     <div class="right-lower-box">
       <h3>Announcements</h3>
       <ul>
-        <li><a href="">TITLE</a></li>
-        <li><a href="">TITLE</a></li>
+        <li><a target="_target" href="https://www.youtube.com/channel/UC_3P5KZb6M7rBZ-oFARkbDQ">Resonate At Home Free Technology Webinar</a></li>
+        <li><a target="_target" href="https://www.youtube.com/channel/UC_3P5KZb6M7rBZ-oFARkbDQ">The Z-zoned! Online Technology Forum</a></li>
         <li><a href="">TITLE</a></li>
         <li><a href="">TITLE</a></li>
         <li><a href="">TITLE</a></li>

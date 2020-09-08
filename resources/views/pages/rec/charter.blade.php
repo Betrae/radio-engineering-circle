@@ -3,6 +3,9 @@
 <div class="rec-header">
   <h3>the constitution radio engineering circle (REC)</h3>
 </div>
+<div class="charter-content">
+
+<h4>Articles of Incorporation</h4>
 <div class="charter-box">
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus exercitationem inventore odio corrupti quasi labore, unde nulla accusantium nisi molestiae aliquam natus laborum voluptatem doloribus error impedit similique illum?
     Quam at perspiciatis repellat. Perferendis quas ea ab beatae necessitatibus molestiae mollitia possimus distinctio nisi aliquam delectus in animi voluptatum fuga expedita, molestias repellat accusamus quasi! Voluptatum dolore omnis eum.
@@ -10,6 +13,7 @@
     Deleniti mollitia nobis reprehenderit, ipsum explicabo exercitationem sed repellendus aut est corporis, molestiae porro praesentium labore voluptatum tempora omnis nesciunt magnam velit optio necessitatibus quidem eveniet accusantium illum. Odit, distinctio.
     Deserunt eius nesciunt vel beatae natus repellat ratione, consequatur architecto rerum aliquam cupiditate commodi dicta illum in assumenda unde, voluptates, recusandae ducimus? Cumque laudantium exercitationem, facilis aut nesciunt cupiditate neque.</p>
 </div>
+<h4>By Laws</h4>
 <div class="charter-box">
   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla explicabo non facilis reiciendis, alias illum labore ipsam veritatis minima, expedita natus a illo, obcaecati sint itaque et! Temporibus, ea?
   Id officiis nobis magnam, fugit enim sapiente cum, in maiores vero unde dignissimos harum, voluptas assumenda nemo soluta illum cumque. Praesentium quas, repellendus odio ipsa blanditiis accusamus. Voluptatum, nam ea.
@@ -18,5 +22,6 @@
   Hic laudantium delectus quisquam ex harum deserunt, est ad cum cupiditate, ab eius aut. Harum dolores, earum impedit culpa, numquam eos hic repellat maxime beatae temporibus, praesentium consequuntur quis provident.
   Reprehenderit et, nobis modi doloribus odio blanditiis voluptatem optio, incidunt facilis recusandae cumque placeat, quibusdam asperiores unde? Quod, labore assumenda? Ea ducimus fugiat vero repellat voluptas fuga autem nihil quam?
 </div>
-
+  
+</div>
 @endsection

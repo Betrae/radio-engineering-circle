@@ -3,7 +3,7 @@
 <div class="section-content">
   <div class="section-box">
     <img src="/assets/images/logo.jpg" alt="">
-    <h3><span><a href="">Name of section</a></span><br>
+    <h3><span><a target="_blank" href="https://www.youtube.com/channel/UC_3P5KZb6M7rBZ-oFARkbDQ">Radio Engineering Circle</a></span><br>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, expedita quam laudantium distinctio explicabo laborum quae ab inventore cum autem provident dolor dicta, sapiente praesentium nihil non ad dolores officia!
     </h3>
   </div>

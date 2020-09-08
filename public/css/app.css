@@ -55,7 +55,7 @@ header {
   font-family: "dax";
   position: absolute;
   color: #0a2c8b;
-  top: 50px;
+  top: 45px;
   left: 120px;
 }
 
@@ -252,7 +252,7 @@ nav li:hover .menu-sub {
   top: 0;
   opacity: 0;
   width: 100%;
-  height: 420px;
+  height: 450px;
   display: block;
   position: absolute;
   transform: scale(1);
@@ -273,7 +273,7 @@ nav li:hover .menu-sub {
   z-index: 9;
   cursor: pointer;
   transition: opacity 0.2s;
-  color: #d3e7f9;
+  color: #0a2c8b;
   font-size: 200pt;
   text-align: center;
   line-height: 380px;
@@ -303,7 +303,7 @@ input:checked + .slide-container .nav label {
 }
 
 .main-content {
-  padding-top: 30px;
+  padding-top: 50px;
   display: flex;
 }
 
@@ -369,14 +369,14 @@ input:checked + .slide-container .nav label {
 
 .left-lower-box h5 {
   color: #0a2c8b;
-  width: 80%;
-  float: right;
+  width: 100%;
 }
 
 .title-desc {
   padding: 10px;
   width: 50%;
   text-align: center;
+  width: 100%;
 }
 
 .right-box {
@@ -410,6 +410,10 @@ input:checked + .slide-container .nav label {
 
 .right-lower-box li {
   padding: 5px;
+}
+
+.right-lower-box a {
+  color: black;
 }
 
 @media only screen and (max-width: 768px) {
@@ -528,6 +532,10 @@ input:checked + .slide-container .nav label {
   }
 }
 
+.history-content h4 {
+  margin: 10px;
+}
+
 .brief-history {
   background-color: #0a2c8b;
   color: #fff;
@@ -579,9 +587,12 @@ input:checked + .slide-container .nav label {
   padding: 15px;
 }
 
+.charter-content h4 {
+  margin: 10px;
+}
+
 .events-upper-content {
   display: flex;
-  height: 350px;
   margin: 10px;
   background: #0a2c8b;
   color: #fff;
@@ -589,11 +600,17 @@ input:checked + .slide-container .nav label {
 }
 
 .events-upper-content img {
-  width: 60%;
+  width: 100%;
 }
 
 .events-upper-content h4 {
   padding: 20px;
+  display: block;
+}
+
+.event-desc {
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 .events-box {
@@ -637,7 +654,15 @@ input:checked + .slide-container .nav label {
 
   .events-upper-content {
     display: block;
-    height: 500px;
+  }
+
+  .events-box {
+    display: block;
+    text-align: center;
+  }
+
+  .events-box img {
+    width: 100%;
   }
 
   .events-upper-content img {
@@ -679,7 +704,7 @@ input:checked + .slide-container .nav label {
 
 .membership-upper-content {
   display: flex;
-  height: 350px;
+  height: 100%;
   margin: 20px;
   background: #0a2c8b;
   color: #fff;
@@ -763,12 +788,12 @@ input:checked + .slide-container .nav label {
 
   .membership-upper-content {
     display: block;
-    height: 450px;
+    height: 100%;
   }
 
   .mySlides img {
     width: 100%;
-    height: 300px;
+    height: 350px;
     padding: 10px;
   }
 
@@ -796,6 +821,14 @@ input:checked + .slide-container .nav label {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For Mobile */
+
+  .mySlide img {
+    height: 350px;
+  }
 }
 
 .examination-box {
@@ -858,6 +891,27 @@ input:checked + .slide-container .nav label {
   margin: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For Mobile */
+
+  .operate-box {
+    display: block;
+  }
+
+  .operate-img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .operate-text {
+    width: 100%;
+  }
+
+  .operate-box-2 {
+    display: block;
+  }
+}
+
 .elmer-section {
   border: 1px solid #0a2c8b;
   margin: 10px;
@@ -890,7 +944,7 @@ input:checked + .slide-container .nav label {
 
 .news-upper-content {
   display: flex;
-  height: 350px;
+  height: 100%;
   background: #0a2c8b;
   color: #fff;
 }
@@ -899,8 +953,9 @@ input:checked + .slide-container .nav label {
   width: 60%;
 }
 
-.news-upper-content h4 {
+.news-upper-content p {
   padding: 20px;
+  width: 40%;
 }
 
 .news-lower-content {
@@ -908,15 +963,15 @@ input:checked + .slide-container .nav label {
 }
 
 .news-lower-box {
-  width: 33%;
-  display: inline-block;
+  width: 32%;
+  float: left;
   border: 1px solid #0a2c8b;
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 .news-lower-box img {
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 
 .news-content {
@@ -939,7 +994,12 @@ input:checked + .slide-container .nav label {
 
   .news-upper-content {
     display: block;
-    height: 500px;
+    height: 100%;
+  }
+
+  .news-upper-content h4 {
+    padding: 20px;
+    width: 100%;
   }
 
   .news-upper-content img {

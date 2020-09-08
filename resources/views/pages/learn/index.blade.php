@@ -44,7 +44,6 @@
     var slides = document.getElementsByClassName("mySlide")
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
-      console.log("TEST");
     }
     slideIndex++;
     if (slideIndex > slides.length) {

@@ -4,13 +4,10 @@
   <h3>Become a Member</h3>
 </div>
 <div class="membership-upper-content">
-  <div class="title-container">
-
-  </div>
   <h4>
-    <span><b>TITLE</b></span><br>
-    <span>Brief overview of why become REC member</span>
-  </h4>
+   The Z-Zone Online Forum<br>
+   <span class="event-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat commodi ipsa nobis velit, inventore nemo culpa! At quod nostrum eos excepturi, reiciendis dolorum ad nobis earum doloremque dolor, neque ipsum!</span>
+ </h4>
   <div class="slideshow-container">
 
     <div class="mySlides fade">

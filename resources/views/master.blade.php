@@ -15,6 +15,7 @@
     @yield('content')
   </div>
   @yield('script')
+  <div class="clearfix"></div>
   @include('footer.footer')
 </body>
 

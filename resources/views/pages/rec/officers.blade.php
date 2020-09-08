@@ -9,7 +9,7 @@
     <img src="/assets/images/logo.jpg" alt="">
   </div>
   <div class="officer-details">
-    <h5><span><a href="">Lorenz Black</a></span><br>
+    <h5><span><a target="_blank" href="https://www.facebook.com/edisonlorenz/">Lorenz Delos Santos</a></span><br>
       <span>Developer</span>
     </h5>
   </div>
@@ -19,7 +19,7 @@
     <img src="/assets/images/logo.jpg" alt="">
   </div>
   <div class="officer-details">
-    <h5><span><a href="">Lorenz Black</a></span><br>
+    <h5><span><a target="_blank" href="https://www.facebook.com/aer.ibana/">Rae De Guzman</a></span><br>
       <span>Developer</span>
     </h5>
   </div>
